@@ -11,12 +11,13 @@ import Animal from './components/propsdemo/animals/Animal'
 import 'bootstrap/dist/css/bootstrap.css'
 import TodoContainer from './components/todolist/TodoContainer'
 import Dashboard from './components/todolist/ConditionalRendering'
+import EmojiDisplay from './components/EmojiDisplay'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Dashboard/>
+      <EmojiDisplay></EmojiDisplay>
     </>
   )
 }
